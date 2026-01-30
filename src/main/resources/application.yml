@@ -1,0 +1,15 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/fenix
+    username: fenix
+    password: fenix
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+server:
+  port: 8080
